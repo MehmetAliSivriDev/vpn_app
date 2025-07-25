@@ -2,6 +2,7 @@
 
 
 ## Görüntüler
+**GIF ve PNG dosyaları mevcuttur.**
 
 <table>
   <tr>
@@ -44,72 +45,73 @@ Uygulama **MVVM (Model-View-ViewModel)** mimarisi ile geliştirilmiştir.
 main.dart
 core/
 ├── model/
-│ ├── connection_stats_model.dart
-│ └── country_model.dart
+│   ├── connection_stats_model.dart
+│   └── country_model.dart
 ├── routes/
-│ ├── pages.dart
-│ └── routes.dart
+│   ├── pages.dart
+│   └── routes.dart
 ├── service/
-│ ├── vpn_repository.dart
-│ └── vpn_service.dart
+│   ├── vpn_repository.dart
+│   └── vpn_service.dart
 ├── theme/
-│ ├── dark_theme.dart
-│ ├── light_theme.dart
-│ └── theme_controller.dart
+│   ├── dark_theme.dart
+│   ├── light_theme.dart
+│   └── theme_controller.dart
 └── util/
-│ └── app_text_styles.dart
+    └── app_text_styles.dart
 
 features/
 ├── home/
-│ ├── view/
-│ │ └── home_view.dart
-│ ├── viewModel/
-│ │ └── home_binding.dart
-│ │ └── home_state.dart
-│ │ └── home_view_model.dart
-│ └── widget/
-│ │ └──  current_connection_container.dart
-│ │ └──  locations.dart
-│ │ └──  top_bar_container.dart
+│   ├── view/
+│   │   └── home_view.dart
+│   ├── viewModel/
+│   │   ├── home_binding.dart
+│   │   ├── home_state.dart
+│   │   └── home_view_model.dart
+│   └── widget/
+│       ├── current_connection_container.dart
+│       ├── locations.dart
+│       └── top_bar_container.dart
 ├── navigation/
-│ ├── view/
-│ │ └── navigation_view.dart
-│ └── viewModel/
-│ │ └──  navigation_binding.dart
-│ │ └──  navigation_state.dart
-│ │ └──  navigation_view_model.dart
+│   ├── view/
+│   │   └── navigation_view.dart
+│   └── viewModel/
+│       ├── navigation_binding.dart
+│       ├── navigation_state.dart
+│       └── navigation_view_model.dart
 ├── search/
-│ ├── view/
-│ │ └── search_view.dart
-│ └── widget/
-│ │ └──  locations_for_search.dart
+│   ├── view/
+│   │   └── search_view.dart
+│   └── widget/
+│       └── locations_for_search.dart
 └── settings/
-│ ├── view/
-│ │ └── settings_view.dart
-│ ├── viewModel/
-│ │ └── settings_binding.dart
-│ │ └── settings_state.dart
-│ │ └── settings_view_model.dart
+    ├── view/
+    │   └── settings_view.dart
+    └── viewModel/
+        ├── settings_binding.dart
+        ├── settings_state.dart
+        └── settings_view_model.dart
 
 product/
 ├── constant/
-│ ├── product_border_radius.dart
-│ ├── product_box_decoration.dart
-│ ├── product_colors.dart
-│ ├── product_input_decoration.dart
-│ ├── product_padding.dart
-│ └── product_strings.dart
+│   ├── product_border_radius.dart
+│   ├── product_box_decoration.dart
+│   ├── product_colors.dart
+│   ├── product_input_decoration.dart
+│   ├── product_padding.dart
+│   └── product_strings.dart
 ├── extension/
-│ ├── image_extension.dart
-│ ├── lottie_extension.dart
-│ └── svg_extension.dart
+│   ├── image_extension.dart
+│   ├── lottie_extension.dart
+│   └── svg_extension.dart
 ├── network/
-│ └── product_network_manager.dart
+│   └── product_network_manager.dart
 └── util/
-│ ├── custom_exception.dart
-│ ├── custom_sized_box.dart
-│ ├── custom_snackbar.dart
-│ ├── product_utils.dart
+    ├── custom_exception.dart
+    ├── custom_sized_box.dart
+    ├── custom_snackbar.dart
+    └── product_utils.dart
+
 
 ## Kurulum ve Kullanım
 
