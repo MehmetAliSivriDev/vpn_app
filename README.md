@@ -30,7 +30,7 @@
 - **http:** Sunucu ile API istekleri yapmak için kullanılır lakin bu projede mock data kullanıldığı için servis fonksiyonunun nasıl olabileceğini göstermek için kullanıldı.  
 - **kartal:** Mediaquery ve text temaları için kolay erişimi sağlayan bir paket geliştirme sürecinde kolaylık için kullanıldı.  
 - **get:** GetX state management yöntemi için kullanıldı.  
-- **flutter_svg:** SVG ikonlar ve grafikler kullanmak için. kullanıldı.  
+- **flutter_svg:** SVG ikonlar ve grafikler için kullanıldı.  
 - **flutter_animate & animations:** Animasyonlar için kullanıldı.  
 - **lottie:** Lottie animasyonlarını kullanmak için kullanıldı.  
 - **device_preview:** Farklı cihaz ve ekran boyutlarında uygulamanın nasıl göründüğünü test etmek için responsive tasarım testi için kullanıldı.  
