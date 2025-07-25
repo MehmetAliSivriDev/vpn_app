@@ -69,21 +69,21 @@ features/<br>
 │   │   ├── home_state.dart<br>
 │   │   └── home_view_model.dart<br>
 │   └── widget/<br>
-│       ├── current_connection_container.dart<br>
-│       ├── locations.dart<br>
-│       └── top_bar_container.dart<br>
+│   │   └── current_connection_container.dart<br>
+│   │   └── locations.dart<br>
+│   │   └── top_bar_container.dart<br>
 ├── navigation/<br>
 │   ├── view/<br>
 │   │   └── navigation_view.dart<br>
 │   └── viewModel/<br>
-│       ├── navigation_binding.dart<br>
-│       ├── navigation_state.dart<br>
-│       └── navigation_view_model.dart<br>
+│   │   └── navigation_binding.dart<br>
+│   │   └── navigation_state.dart<br>
+│   │   └── navigation_view_model.dart<br>
 ├── search/<br>
 │   ├── view/<br>
 │   │   └── search_view.dart<br>
 │   └── widget/<br>
-│       └── locations_for_search.dart<br>
+│   │   └── locations_for_search.dart<br>
 └── settings/<br>
     ├── view/<br>
     │   └── settings_view.dart<br>
