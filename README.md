@@ -84,13 +84,13 @@ features/<br>
 │   │   └── search_view.dart<br>
 │   └── widget/<br>
 │   │   └── locations_for_search.dart<br>
-└── settings/<br>
-    ├── view/<br>
-    │   └── settings_view.dart<br>
-    └── viewModel/<br>
-        ├── settings_binding.dart<br>
-        ├── settings_state.dart<br>
-        └── settings_view_model.dart<br>
+├── settings/<br>
+│   ├── view/<br>
+│   │   └── settings_view.dart<br>
+│   ├── viewModel/<br>
+│   │   └── settings_binding.dart<br>
+│   │   └── settings_state.dart<br>
+│   │   └── settings_view_model.dart<br>
 
 product/<br>
 ├── constant/<br>
@@ -106,11 +106,11 @@ product/<br>
 │   └── svg_extension.dart<br>
 ├── network/<br>
 │   └── product_network_manager.dart<br>
-└── util/<br>
-    ├── custom_exception.dart<br>
-    ├── custom_sized_box.dart<br>
-    ├── custom_snackbar.dart<br>
-    └── product_utils.dart<br>
+├── util/<br>
+│   └── custom_exception.dart<br>
+│   └── custom_sized_box.dart<br>
+│   └── custom_snackbar.dart<br>
+│   └── product_utils.dart<br>
 
 
 ## Kurulum ve Kullanım
